@@ -98,3 +98,7 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/autoware_individual_params.git
     version: autoware_individual_params_future
+  ft_delivery/master_planner:
+    type: git
+    url: git@github.com:Futu-reADS/master_planner.git
+    version: main
