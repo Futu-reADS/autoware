@@ -103,5 +103,12 @@ repositories:
     type: git
     url: https://github.com/Futu-reADS/master_planner.git
     version: main
-
+  ft_delivery/ui_delivery/smv_ui_frontend:
+    type: git
+    url: https://github.com/Futu-reADS/smv_ui_frontend.git
+    version: main
+  ft_delivery/ui_delivery/smv_bridge_backend:
+    type: git
+    url: https://github.com/Futu-reADS/smv_bridge_backend.git
+    version: main
 
