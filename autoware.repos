@@ -2,113 +2,111 @@ repositories:
   # core
   core/autoware_msgs:
     type: git
-    url: https://github.com/Futu-reADS/autoware_msgs.git
+    url: git@github.com:Futu-reADS/autoware_msgs.git
     version: autoware_msgs_future
   core/autoware_adapi_msgs:
     type: git
-    url: https://github.com/Futu-reADS/autoware_adapi_msgs.git
+    url: git@github.com:Futu-reADS/autoware_adapi_msgs.git
     version: autoware_adapi_msgs_future
   core/autoware_common:
     type: git
-    url: https://github.com/Futu-reADS/autoware_common.git
+    url: git@github.com:Futu-reADS/autoware_common.git
     version: awsim-stable
   core/autoware.core:
     type: git
-    url: https://github.com/Futu-reADS/autoware.core.git
+    url: git@github.com:Futu-reADS/autoware.core.git
     version: autoware_core_future
   core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
     type: git
-    url: https://github.com/Futu-reADS/autoware_auto_msgs.git
+    url: git@github.com:Futu-reADS/autoware_auto_msgs.git
     version: autoware_auto_msgs_future
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/Futu-reADS/autoware.universe.git
+    url: git@github.com:Futu-reADS/autoware.universe.git
     version: awsim-stable
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
-    url: https://github.com/Futu-reADS/tier4_ad_api_adaptor.git
+    url: git@github.com:Futu-reADS/tier4_ad_api_adaptor.git
     version: tier4_ad_api_adaptor_future
   universe/external/tier4_autoware_msgs:
     type: git
-    url: https://github.com/Futu-reADS/tier4_autoware_msgs.git
+    url: git@github.com:Futu-reADS/tier4_autoware_msgs.git
     version: tier4_autoware_msgs_future
   universe/external/morai_msgs:
     type: git
-    url: https://github.com/Futu-reADS/MORAI-ROS2_morai_msgs.git
+    url: git@github.com:Futu-reADS/MORAI-ROS2_morai_msgs.git
     version: morai_msgs_future
   universe/external/muSSP:
     type: git
-    url: https://github.com/Futu-reADS/muSSP.git
+    url: git@github.com:Futu-reADS/muSSP.git
     version: muSSP_future
   universe/external/ndt_omp:
     type: git
-    url: https://github.com/Futu-reADS/ndt_omp.git
+    url: git@github.com:Futu-reADS/ndt_omp.git
     version: ndt_omp_future
   universe/external/pointcloud_to_laserscan:
     type: git
-    url: https://github.com/Futu-reADS/pointcloud_to_laserscan.git
+    url: git@github.com:Futu-reADS/pointcloud_to_laserscan.git
     version: pointcloud_to_laserscan_future
   # launcher
   launcher/autoware_launch:
     type: git
-    url: https://github.com/Futu-reADS/autoware_launch.git
+    url: git@github.com:Futu-reADS/autoware_launch.git
     version: awsim-stable
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
-    url: https://github.com/Futu-reADS/sensor_component_description.git
+    url: git@github.com:Futu-reADS/sensor_component_description.git
     version: sensor_component_description_future
   sensor_component/external/tamagawa_imu_driver:
     type: git
-    url: https://github.com/Futu-reADS/tamagawa_imu_driver.git
+    url: git@github.com:Futu-reADS/tamagawa_imu_driver.git
     version: tamagawa_imu_driver_future
   sensor_component/external/velodyne_vls:
     type: git
-    url: https://github.com/Futu-reADS/awf_velodyne.git
+    url: git@github.com:Futu-reADS/awf_velodyne.git
     version: velodyne_vls_future
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
-    url: https://github.com/Futu-reADS/sample_sensor_kit_launch.git
+    url: git@github.com:Futu-reADS/sample_sensor_kit_launch.git
     version: sample_sensor_kit_launch_future
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
-    url: https://github.com/Futu-reADS/awsim_sensor_kit_launch.git
+    url: git@github.com:Futu-reADS/awsim_sensor_kit_launch.git
     version: awsim_sensor_kit_launch_future
   sensor_kit/ft_sensor_kit_launch:
     type: git
-    url: https://github.com/Futu-reADS/ft_sensor_kit_launch.git
+    url: git@github.com:Futu-reADS/ft_sensor_kit_launch.git
     version: main
   # vehicle
   vehicle/ft_vehicle_launch:
     type: git
-    url: https://github.com/Futu-reADS/ft_vehicle_launch.git
+    url: git@github.com:Futu-reADS/ft_vehicle_launch.git
     version: main
   vehicle/sample_vehicle_launch:
     type: git
-    url: https://github.com/Futu-reADS/sample_vehicle_launch.git
+    url: git@github.com:Futu-reADS/sample_vehicle_launch.git
     version: sample_vehicle_launch_future
   vehicle/external/pacmod_interface:
     type: git
-    url: https://github.com/Futu-reADS/pacmod_interface.git
+    url: git@github.com:Futu-reADS/pacmod_interface.git
     version: pacmod_interface_future
   # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/Futu-reADS/autoware_individual_params.git
-    version: autoware_individual_params_future  
-    # FUTU-RE modules
+    url: git@github.com:Futu-reADS/autoware_individual_params.git
+    version: autoware_individual_params_future
   ft_delivery/master_planner:
     type: git
-    url: https://github.com/Futu-reADS/master_planner.git
+    url: git@github.com:Futu-reADS/master_planner.git
     version: main
   ft_delivery/ui_delivery/smv_ui_frontend:
     type: git
-    url: https://github.com/Futu-reADS/smv_ui_frontend.git
+    url: git@github.com:Futu-reADS/smv_ui_frontend.git
     version: main
   ft_delivery/ui_delivery/smv_bridge_backend:
     type: git
-    url: https://github.com/Futu-reADS/smv_bridge_backend.git
+    url: git@github.com:Futu-reADS/smv_bridge_backend.git
     version: main
-
