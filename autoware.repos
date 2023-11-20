@@ -113,4 +113,4 @@ repositories:
   ft_delivery/ui_delivery/smv_bridge_backend:
     type: git
     url: git@github.com:Futu-reADS/smv_bridge_backend.git
-    version: main
+    version: _dev_aziz/bridgeAPI
