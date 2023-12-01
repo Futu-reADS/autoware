@@ -109,7 +109,7 @@ repositories:
   ft_delivery/ui_delivery/smv_ui_frontend:
     type: git
     url: git@github.com:Futu-reADS/smv_ui_frontend.git
-    version: main
+    version: _dev_aziz/newControl
   ft_delivery/ui_delivery/smv_bridge_backend:
     type: git
     url: git@github.com:Futu-reADS/smv_bridge_backend.git
