@@ -11,6 +11,7 @@ build/
 install/
 log/
 /src/
+maps/
 
 # Python
 *.pyc
@@ -23,3 +24,4 @@ capture/
 
 # CodeChecker
 .codechecker/
+
