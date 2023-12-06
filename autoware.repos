@@ -79,12 +79,12 @@ repositories:
   sensor_kit/ft_sensor_kit_launch:
     type: git
     url: git@github.com:Futu-reADS/ft_sensor_kit_launch.git
-    version: main
+    version: ft_delivery
   # vehicle
   vehicle/ft_vehicle_launch:
     type: git
     url: git@github.com:Futu-reADS/ft_vehicle_launch.git
-    version: main
+    version: ft_delivery
   vehicle/sample_vehicle_launch:
     type: git
     url: git@github.com:Futu-reADS/sample_vehicle_launch.git
