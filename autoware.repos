@@ -114,3 +114,7 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/smv_bridge_backend.git
     version: _dev_aziz/bridgeAPI
+  ft_delivery/ifb_driver_package:
+    type: git
+    url: git@github.com:Futu-reADS/ifb_driver_package.git
+    version: main
