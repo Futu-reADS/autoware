@@ -25,3 +25,4 @@ capture/
 # CodeChecker
 .codechecker/
 
+log.log

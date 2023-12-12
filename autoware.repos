@@ -79,12 +79,12 @@ repositories:
   sensor_kit/ft_sensor_kit_launch:
     type: git
     url: git@github.com:Futu-reADS/ft_sensor_kit_launch.git
-    version: ft_delivery
+    version: ft_testbed
   # vehicle
   vehicle/ft_vehicle_launch:
     type: git
     url: git@github.com:Futu-reADS/ft_vehicle_launch.git
-    version: ft_delivery
+    version: ft_testbed
   vehicle/sample_vehicle_launch:
     type: git
     url: git@github.com:Futu-reADS/sample_vehicle_launch.git
@@ -109,7 +109,7 @@ repositories:
   ft_delivery/ui_delivery/smv_ui_frontend:
     type: git
     url: git@github.com:Futu-reADS/smv_ui_frontend.git
-    version: _dev_aziz/newControl
+    version: main
   ft_delivery/ui_delivery/smv_bridge_backend:
     type: git
     url: git@github.com:Futu-reADS/smv_bridge_backend.git
