@@ -59,45 +59,21 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/sensor_component_description.git
     version: sensor_component_description_future
-  sensor_component/external/tamagawa_imu_driver:
-    type: git
-    url: git@github.com:Futu-reADS/tamagawa_imu_driver.git
-    version: tamagawa_imu_driver_future
-  sensor_component/external/velodyne_vls:
-    type: git
-    url: git@github.com:Futu-reADS/awf_velodyne.git
-    version: velodyne_vls_future
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/testbed_sensor_kit_launch:
     type: git
-    url: git@github.com:Futu-reADS/sample_sensor_kit_launch.git
-    version: sample_sensor_kit_launch_future
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: git@github.com:Futu-reADS/awsim_sensor_kit_launch.git
-    version: awsim_sensor_kit_launch_future
-  sensor_kit/ft_sensor_kit_launch:
-    type: git
-    url: git@github.com:Futu-reADS/ft_sensor_kit_launch.git
-    version: ft_testbed
+    url: git@github.com:Futu-reADS/testbed_sensor_kit_launch.git
+    version: main
   # vehicle
   vehicle/ft_vehicle_launch:
     type: git
     url: git@github.com:Futu-reADS/ft_vehicle_launch.git
     version: ft_testbed
-  vehicle/sample_vehicle_launch:
-    type: git
-    url: git@github.com:Futu-reADS/sample_vehicle_launch.git
-    version: sample_vehicle_launch_future
   vehicle/external/pacmod_interface:
     type: git
     url: git@github.com:Futu-reADS/pacmod_interface.git
     version: pacmod_interface_future
   # param
-  param/autoware_individual_params:
-    type: git
-    url: git@github.com:Futu-reADS/autoware_individual_params.git
-    version: autoware_individual_params_future
   ft_delivery/ft_maps:
     type: git
     url: git@github.com:Futu-reADS/ft_maps.git
