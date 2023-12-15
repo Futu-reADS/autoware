@@ -114,3 +114,8 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/serial-ros2.git
     version: master
+  ft_delivery/manual_controller/keyboard_ackermann_controller:
+    type: git
+    url: git@github.com:Futu-reADS/keyboard_ackermann_controller.git
+    version: ft_delivery
+
