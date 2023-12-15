@@ -106,3 +106,11 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/master_planner.git
     version: ft_delivery
+  ft_delivery/battery/jbd_bms_ros:
+    type: git
+    url: git@github.com:Futu-reADS/jbd_bms_ros.git
+    version: ros2_humble
+  ft_delivery/battery/serial-ros2:
+    type: git
+    url: git@github.com:Futu-reADS/serial-ros2.git
+    version: master
