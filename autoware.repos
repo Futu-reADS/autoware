@@ -96,4 +96,4 @@ repositories:
   sensor_component/external/hesai:
     type: git
     url: git@github.com:Futu-reADS/HesaiLidar_ROS_2.0.git
-    version: master
+    version: hesai_future
