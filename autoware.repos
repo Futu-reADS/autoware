@@ -77,6 +77,7 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/master_planner.git
     version: main
+
   ft_delivery/ui_delivery/smv_ui_frontend:
     type: git
     url: git@github.com:Futu-reADS/smv_ui_frontend.git
@@ -85,6 +86,7 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/smv_bridge_backend.git
     version: _dev_aziz/bridgeAPI
+
   ft_delivery/ifb_driver_package:
     type: git
     url: git@github.com:Futu-reADS/ifb_driver_package.git
