@@ -59,6 +59,11 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/testbed_sensor_kit_launch.git
     version: main
+  # param
+  param/autoware_individual_params:
+    type: git
+    url: https://github.com/Futu-reADS/autoware_individual_params.git
+    version: main
   # vehicle
   vehicle/testbed_vehicle_launch:
     type: git
@@ -99,3 +104,8 @@ repositories:
     type: git
     url: git@github.com:Futu-reADS/HesaiLidar_ROS_2.0.git
     version: hesai_future
+# param
+  param/autoware_individual_params:
+    type: git
+    url: git@github.com:Futu-reADS/autoware_individual_params.git
+    version: smv_china
